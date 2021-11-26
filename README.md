@@ -8,12 +8,10 @@ You can see demo from here. [Check Here](https://aditpatel4.github.io/OS-Algorit
 
 ## About:
 
-![Screenshot (1952)](https://user-images.githubusercontent.com/71980446/141646565-9a7eb989-dc42-41b5-8b63-5a0f5da30d1b.png)
-
+![image](https://user-images.githubusercontent.com/91650979/143620461-f489088e-2dd5-42e1-8ff1-1a4fb30e4121.png)
 
 <br />
 
-![Screenshot (1953)](https://user-images.githubusercontent.com/71980446/141646572-fa8912d0-f49b-4274-8389-8c151fbadcce.png)
 
 <br /><br />
 
@@ -30,7 +28,9 @@ Semaphore<br />
 
 <br />
 
-![Screenshot (1954)](https://user-images.githubusercontent.com/71980446/141646589-d5a43144-6c2d-45fb-8384-20628aa3f6d8.png)
+![image](https://user-images.githubusercontent.com/91650979/143620489-cf8ee36a-2036-49c5-a8d0-2c01e7024182.png)
+
+![image](https://user-images.githubusercontent.com/91650979/143620503-6cfee0a3-7345-43e5-a46e-3ec1e176ca1b.png)
 
 <br /><br />
 

@@ -5,12 +5,6 @@ We made Operating System Virtual Lab where students are able to learn CPU Schedu
 You can see demo from here. Click Here 
 [Check Here] https://aditpatel4.github.io/OS-Algorithms-Web/
 
-## Section Of Operating System Virtual Lab 
-*   Disk Scheduling 
-*   Page Replacement 
-*   Deadlock & Concurrency
-*   CPU Scheduling 
-
 
 <br />
 <br />

@@ -1,0 +1,145 @@
+body{
+    background: #242931;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.mainbody{
+    padding-top: 73.6px;
+}
+/*-----navbar-start------*/
+nav{
+    background: rgb(19, 25, 34);
+    filter: drop-shadow(0 0.25em 0.5rem rgb(17, 19, 36));
+}
+nav.scrolled{
+    background: rgb(19, 25, 34);
+    filter: drop-shadow(0 0.25em 0.5rem rgb(17, 19, 36));
+}
+img.d-inline-block.align-top{
+    position: relative;
+    left: 0.15em;
+    top:0.2em;
+    padding-top: 0.1em;
+    padding-right: 0.1em;
+}
+nav.navbar.navbar-dark.fixed-top{
+    padding-bottom: 0.6em;
+    padding-top: 0.5em;
+}
+a.navbar-brand{
+    margin-left: 16px;
+    letter-spacing: 0.4em;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+.navbar{
+    color: white;
+}
+li.nav-link{
+    letter-spacing: 0.5em; 
+}
+li.nav-link:hover{
+    transform: translateY(-.2em);
+    transition: transform .3s;
+}
+li a{
+    text-align: center;
+    padding: .3em 1.79em;
+    padding-top: .5em;
+    padding-bottom: .6em;
+    padding-left: 2.21em;
+    border-radius: 1.2em;
+    background-color: rgba(8, 13, 20, 0.76);
+}
+li a:hover{
+    color: #84FF0A;
+    text-decoration: none;
+}
+/*----navbar-end-----*/
+
+/*BODY*/
+.sections {
+    display: flex;
+    width: 100%;
+    padding-bottom: 30px;
+    }
+
+.input100 {
+    position: relative;
+    display: block;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    font-family: rubik;
+    font-size: 18px;
+    color: #ababb4;
+    line-height: 1.8;
+    padding: 5px 10px 0px 10px;
+  }
+
+  .input1001 {
+    position: relative;
+    display: block;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    font-family: rubik;
+    font-size: 18px;
+    color: #ababb4;
+    line-height: 1.6;
+    padding: 5px 10px 0px 10px;
+    height: 150px;
+  }
+
+  .bTop {
+    margin-left: 1em;
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    text-align: center;
+    padding-top: .5em;
+    padding-bottom: .6em;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    border: 3px solid #2ea44f;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-radius: 1.5em;
+    background-color: #2ea44f;
+}
+
+.algo:hover{
+    filter: drop-shadow(0 0 0.75rem rgb(6, 6, 10));
+    transform: translateY(-.2em);
+    transition: transform .3s;
+    text-decoration: none;
+    color: white;
+    border: 3px solid #299748;
+    background-color: #299748;
+} 
+.wrap-contact100{
+    width: 650px;
+    border-radius: 1.5em;
+    background-color: rgba(196, 196, 196, 0.32);
+    padding: 40px;
+    margin-left: 40px;
+}
+.contact100-form-title{
+    text-align: center;
+    letter-spacing: 0.2em;
+    padding-top: 20px;
+}
+
+
+.right{
+    width: 50%;
+    color: white;
+    padding-left: 35px;
+  }

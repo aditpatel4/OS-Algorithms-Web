@@ -1,0 +1,110 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #242931;
+    color: white;
+}
+/*-----navbar-start------*/
+nav{
+    background: rgb(19, 25, 34);
+    filter: drop-shadow(0 0.25em 0.5rem rgb(17, 19, 36));
+}
+nav.scrolled{
+    background: rgb(19, 25, 34);
+    filter: drop-shadow(0 0.25em 0.5rem rgb(17, 19, 36));
+}
+img.d-inline-block.align-top{
+    position: relative;
+    left: 0.15em;
+    top:0.2em;
+    padding-top: 0.1em;
+    padding-right: 0.1em;
+}
+nav.navbar.navbar-dark.fixed-top{
+    padding-bottom: 0.6em;
+    padding-top: 0.5em;
+}
+a.navbar-brand{
+    margin-left: 16px;
+    letter-spacing: 0.4em;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar{
+    color: white;
+}
+li.nav-link{
+    letter-spacing: 0.5em; 
+}
+li.nav-link:hover{
+    transform: translateY(-.2em);
+    transition: transform .3s;
+}
+li a{
+    text-align: center;
+    padding: .3em 1.79em;
+    padding-top: .5em;
+    padding-bottom: .6em;
+    padding-left: 2.21em;
+    border-radius: 1.2em;
+    background-color: rgba(8, 13, 20, 0.76);
+}
+li a:hover{
+    color: #84FF0A;
+    text-decoration: none;
+}
+/*----navbar-end-----*/
+h1{
+    padding-top: 100px;
+    padding-bottom: 25px;
+    text-align: center;
+    letter-spacing: 0.3em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+h2,h3{
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+h2{
+    padding-top: 0.75em;
+    font-size: 2em;
+}
+.team{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    
+}
+.team div{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.9em;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(196, 196, 196, 0.6);
+    box-shadow: 5px 5px 5px rgba(20, 20, 20, 0.705);
+    justify-content: center;
+    align-items: center;
+
+}
+div img{    
+    display: block;
+    position: relative;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}

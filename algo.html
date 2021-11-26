@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/algo.css">
+    <link rel="icon" href="images/fevicon1.png">
+    <title>ALGORITHMS</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark fixed-top">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logof.png" width="35" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+          OS LAB
+        </a>
+        <div class="navbar">
+            <li class="nav-link"><a href="index.html#about">ABOUT</a></li>
+            <li class="nav-link"><a href="algo.html">ALGORITHMS</a></li>
+            <li class="nav-link"><a href="team.html">TEAM</a></li>
+        </div>
+      </nav>
+    <section class="secondnav">
+      <a href="#top">DEADLOCK</a><a onclick="scrolling();" id="con">CONCURRENCY</a><a href="#semaphore">SEMAPHORE</a>
+    </section>
+<div id="top"class="mainbody">
+  <section id="deadlock">
+      <h2>DEADLOCK</h2>
+  </section>
+  <section class="al">
+  <section class="cont">
+    <h2>BANKER'S ALGORITHM</h2>
+    <p>
+      <b>What is banker’s algorithm ? : </b> <br>
+      The banker’s algorithm is a resource allocation and deadlock avoidance algorithm that tests for safety by simulating the allocation for predetermined maximum possible amounts of all resources, then makes an “s-state” check to test for possible activities, before deciding whether allocation should be allowed to continue.
+    </p>
+    <section class="button">
+      <p>
+        <b> Why Banker’s algorithm is named so?</b><br> 
+        Banker’s algorithm is named so because it is used in banking system to check whether loan can be sanctioned to a person or not. Suppose there are n number of account holders in a bank and the total sum of their money is S. If a person applies for a loan then the bank first subtracts the loan amount from the total money that bank has and if the remaining amount is greater than S then only the loan is sanctioned. It is done because if all the account holders comes to withdraw their money then the bank can easily do it.
+        In other words, the bank would never allocate its money in such a way that it can no longer satisfy the needs of all its customers. The bank would try to be in safe state always.
+        <p>
+          <b>Characteristics of Banker's Algorithm:</b><br>
+          - Keep many resources that satisfy the requirement of at least one client <br>
+          - Whenever a process gets all its resources, it needs to return them in a restricted period. <br>
+          - When a process requests a resource, it needs to wait <br>
+          - The system has a limited number of resources <br>
+          - Advance feature for max resource allocation <br>
+        </p>
+        <p>
+          <b>Disadvantage of Banker's algorithm:</b> <br>
+          - Does not allow the process to change its Maximum need while processing <br>
+          - It allows all requests to be granted in restricted time, but one year is a fixed period for that. <br>
+          - All processes must know and state their maximum resource needs in advance. <br>
+        </p>
+      </p>
+    <a href="javascript:void();" class="readmore-btn">READ MORE</a><a href="banker.html" class="demo">DEMO</a>
+    </section>
+  </section>
+  </section>
+  <section id="concurrency">
+    <h2>CONCURRENCY</h2>
+  </section> 
+  <section class="al">
+      <section class="cont">
+        <h2>TURN VARIABLE</h2>
+        <p>
+          <b>What is turn variable ? : </b> <br>
+          Turn Variable or Strict Alternation Approach is the software mechanism implemented at user mode. It is a busy waiting solution which can be implemented only for two processes. In this approach, A turn variable is used which is actually a lock.
+          This approach can only be used for only two processes. In general, let the two processes be P<sub>i</sub> and P<sub>j</sub> . They share a variable called turn variable. 
+        </p>
+        <section class="button">
+          <p>
+            <b> Analysis of Turn Variable approach:</b><br> 
+            - Mutual Exclusion : <br>
+            The strict alternation approach provides mutual exclusion in every case. This procedure works only for two processes. The pseudo code is different for both of the processes. The process will only enter when it sees that the turn variable is equal to its Process ID otherwise not Hence No process can enter in the critical section regardless of its turn.
+            <br>- Progress : <br>
+            Progress is not guaranteed in this mechanism. If P0 doesn't want to get enter into the critical section on its turn then P1 got blocked for infinite time. P1 has to wait for so long for its turn since the turn variable will remain 0 until P0 assigns it to 1.
+            <br>- Portability : <br>
+            The solution provides portability. It is a pure software mechanism implemented at user mode and doesn't need any special instruction from the Operating System.
+          </p>
+          <a href="javascript:void();" class="readmore-btn">READ MORE</a><a href="turnvari.html" class="demo">DEMO</a>
+          </section>
+      </section>
+      </section>
+    <section class="al">
+      <section class="cont">
+        <h2>PETERSON METHOD</h2>
+        <p>
+          Peterson’s solution provides a good algorithmic description of solving the critical-section problem and illustrates some of the complexities involved in designing software that addresses the requirements of mutual exclusion, progress, and bounded waiting.
+       </p>
+        <section class="button">
+          <p>
+            <b> Characteristics of Peterson Algorithm approach:</b><br> 
+            
+
+1. Mutual Exclusion:<br> 
+The method provides mutual exclusion for sure. In entry section, the while condition involves the criteria for two variables<br> 
+
+2. Progress:<br> 
+An uninterested process will never stop the other interested process from entering in the critical section.
+If the other process is also interested then the process will wait.<br> 
+
+3. Bounded waiting:<br> 
+The interested variable mechanism failed because it was not providing bounded waiting. However, in Peterson solution,
+a deadlock can never happen because the process which first sets the turn variable will enter in the critical section for sure.
+Therefore, if a process is preempted after executing line number 4 of the entry section then it will definitely get into the critical section in its next chance.
+<br> 
+4. Portability:<br> 
+This is the complete software solution and therefore it is portable on every hardware.Therefore a process cannot enter in the
+critical section until the other process is interested and the process is the last one to update turn variable.<br> 
+<b>Disadvantage:</b>
+Peterson’s solution works for two processes, but this solution is best scheme in user mode for critical section. <br>
+  
+This solution is also a busy waiting solution so CPU time is wasted. So that “SPIN LOCK” problem can come. And this problem can come in any of the busy waiting solution.
+           </p>
+          <a href="javascript:void();" class="readmore-btn">READ MORE</a><a href="peterson.html" class="demo">DEMO</a>
+          </section>
+      </section>
+      </section>
+  <section id="semaphore">
+    <h2>SEMAPHORE</h2>
+  </section>
+  <section class="al">
+  <section class="cont">
+    <h2>BINARY SEMAPHORE</h2>
+    <p>
+      A binary semaphore is restricted to values of zero or one, while a counting semaphore can assume any nonnegative integer value. A binary semaphore can be used to control access to a single resource. In particular, it can be used to enforce mutual exclusion for a critical section in user code.
+      In a ‘binary semaphore’, the first task needing to use the resource will find the semaphore in a GO state and will change it to WAIT before starting to use the resource. Any other task in the meantime needing to use the resource will have to enter the blocked state. When the first task has completed accessing the resource, it changes the semaphore back to GO. This leads to the concept of ‘mutual exclusion’; when one task is accessing the resource, all others are excluded.
+     
+      
+      </p>
+    <section class="button">
+      <p>
+        Has 0 and 1 value. The wait operation only works when the semaphore is 1 and the signal operation succeeds when semaphore is 0
+<b> Analysis of Binary Semaphore approach:</b> <br>
+
+1. A binary semaphore has two components- <br>
+&ensp;a. An integer value which can be either 0 or 1.<br>
+&ensp;b. An associated waiting list (usually a queue).<br>
+
+2. The waiting list of binary semaphore contains the processes that got blocked when trying to enter the critical section.<br>
+
+3. In waiting list, the blocked processes are put to sleep.<br>
+
+4. The waiting list is usually implemented using a queue data structure.<br>
+
+5. Using a queue as waiting list ensures bounded waiting.<br>
+
+6. This is because the process which arrives first in the waiting queue gets the chance to enter the critical section first.<br>
+
+7. The wait operation is executed when a process tries to enter the critical section.<br>
+
+8. The signal operation is executed when a process takes exit from the critical section.<br>
+
+9. Binary semaphores are mainly used for two purposes-<br>
+&ensp;a. To ensure mutual exclusion.<br>
+&ensp;b. To implement order in which the process must execute.<br>
+        <b>  Some of the disadvantages of semaphores are as follows :</b><br> 
+        Semaphores are complicated so the wait and signal operations must be implemented in the correct order to prevent deadlocks.
+      Semaphores are impractical for last scale use as their use leads to loss of modularity. This happens because the wait and signal operations prevent the creation of a structured layout for the system.
+      Semaphores may lead to a priority inversion where low priority processes may access the critical section first and high priority processes later.
+    </p>
+      <a href="javascript:void();" class="readmore-btn">READ MORE</a><a href="binary.html" class="demo">DEMO</a>
+      </section>
+  </section>
+  </section>
+</div> 
+<section class="buttons" >
+  <a class="bTop" href="#top">BACK TO TOP</a>
+</section> 
+<script type="text/javascript">
+  function scrolling(){
+ window.scrollTo(0,330);
+  }
+</script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({duration:600});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+
+  $(".readmore-btn").on('click',function(){
+    $(this).parent().toggleClass("showContent");
+
+    var replaceText = $(this).parent().hasClass("showContent")? "READ LESS":"READ MORE";
+    $(this).text(replaceText);
+  });
+</script>
+</body>
+</html>

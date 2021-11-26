@@ -3,8 +3,6 @@
 We made Operating System Virtual Lab where students are able to learn CPU Scheduling Algorithms from scratch. We have also implemented Algorithms in this website, so students can try out a working algorithm on their own for better learning.
 
 You can see demo from here. [Check Here](https://aditpatel4.github.io/OS-Algorithms-Web/)
-
-
 <br />
 <br />
 

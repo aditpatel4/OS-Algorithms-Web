@@ -69,7 +69,7 @@ After Completing the changes in your local repo or changes in your local storage
 <br /><br />
 
 ## Developed By
-1.	.[Adit Patel](www.linkedin.com/in/adit-patel-1a33ab218)
+1.	[Adit Patel](www.linkedin.com/in/adit-patel-1a33ab218)
 2.	Achal Mehta
 3.	Brave Desai
 4.	Harsh Shah

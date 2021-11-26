@@ -10,7 +10,7 @@ You can see demo from here. [Check Here](https://aditpatel4.github.io/OS-Algorit
 
 ![image](https://user-images.githubusercontent.com/91650979/143620461-f489088e-2dd5-42e1-8ff1-1a4fb30e4121.png)
 
-<br /><br />
+<br />
 
 ## Types Of Algorithms
 

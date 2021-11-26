@@ -50,9 +50,9 @@ You can directly fork or clone this project using command line to your system an
 ### Steps: 
 Below are the steps you can use to further run this project on your own and make changes to them according to your need and requirement.  <br />
 For Downloading the all codes file, you can use this command in your command prompt :-    <br />
-Git clone https://aditpatel4.github.io/OS-Algorithms-Web/   <br /> <br />
+Git clone https://github.com/aditpatel4/OS-Algorithms-Web   <br /> <br />
 For the Forking this project , you can use this command in your GitHub CLI Tools :-   <br />
-gh repo fork https://aditpatel4.github.io/OS-Algorithms-Web/ --clone
+gh repo fork https://github.com/aditpatel4/OS-Algorithms-Web --clone
   
   <br />
 After Completing the changes in your local repo or changes in your local storage device, you can push your edited Code to the GitHub Repo and your task terminates there.  

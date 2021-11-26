@@ -60,7 +60,7 @@ After Completing the changes in your local repo or changes in your local storage
 2. CSS
 3. javascript
 
-<br /><br />
+<br />
 
 ## Developed By
 1.	[Adit Patel](https://www.linkedin.com/in/adit-patel-1a33ab218)

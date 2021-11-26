@@ -22,12 +22,12 @@ You can see demo from here. Click Here
 
 ## Types Of Algorithms
 
-Deadlock 
-•	Banker’s Algorithm
-Concurrency
-•	Turn Variable
-•	Peterson Method
-Semaphore
+Deadlock <br />
+•	Banker’s Algorithm<br />
+Concurrency<br />
+•	Turn Variable<br />
+•	Peterson Method<br />
+Semaphore<br />
 •	Binary Semaphore
 
 

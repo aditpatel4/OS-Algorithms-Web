@@ -6,7 +6,7 @@ You can see demo from here. [Check Here](https://aditpatel4.github.io/OS-Algorit
 <br />
 <br />
 
-## About:
+## About
 
 ![image](https://user-images.githubusercontent.com/91650979/143620461-f489088e-2dd5-42e1-8ff1-1a4fb30e4121.png)
 
@@ -31,7 +31,7 @@ Semaphore<br />
 
 <br /><br />
 
-## How to run the algorithm :- 
+## How to run the algorithm
 
 Click on Demo of any Algorithm you want to run.
 Then enter your Input to run the algorithm. On doing so, you get you output.
@@ -39,7 +39,7 @@ You can also watch video on how to run this algorithms on our YouTube channel. h
 
 <br /><br />
 
-## How to contribute in this project :- 
+## How to contribute in this project
 
 You can directly fork or clone this project using command line to your system and make changes. <br />
 ### Steps: 
@@ -54,7 +54,7 @@ After Completing the changes in your local repo or changes in your local storage
 
 <br /><br />
 
-## Languages are used in Project :-
+## Languages are used in Project
 
 1. HTML
 2. CSS
